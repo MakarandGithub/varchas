@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Varchas '15</title>
+    <!-- CSS-->
+    <link href="default.css" type="text/css" rel="stylesheet">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet"> 
+	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+<body>
+	<div id = "outer">
+		<div id="menu">
+			<ul class="side_menu">
+				<li class="logo"><a href="#">Varchas '15</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="table.html">Introduction</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="active_tab">Rules</li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="judging.html">Judging</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="../registration.php" target="_blank">Registration</a></li>
+			</ul>
+		</div>
+		<div id="HL">
+		<div id="header">
+			<a href="table.html">Table Tennis</a>
+		</div>
+		<div id="link_content">
+			<div class="contents">
+				<p>MEN's TEAM</p>
+
+<p>Rules:</p>
+<ol>
+<li>Format Of Play : singles(A vs X),singles(B vs Y), doubles and reverse singles(A vs Y & B vs X).</li>
+<li>All games will be best of 5.</li>
+<li>Players playing singles won't be allowed to repeat in doubles.</li>
+<li>Maximum number of 5 and minimum number of 4 players are allowed in a team.</li>
+</ol>
+<br><br>
+<p>WOMEN TEAM</p>
+
+<p>Rules</p>
+<ol>
+<li>It is a team event requiring a minimum of 3 players and a maximum of 4 players.</li>
+<li>The event will consist of 5 sets and every set will comprise 5 games of 11 points each.</li>
+<li>Description of the 5 sets is as follows:
+<br>First two sets are singles matches,to be played by two different players A and B.
+<br>Third set is a doubles match, to be played by either two new players (C and D) or one new player(C or D) and and one of the single players(A or B).
+<br>The fourth and fifth set are reverse singles matches to be played by players(A and B).
+</li>
+</ol>
+			</div>
+			<div id="footer">
+				Footer contents will goes here...
+			</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

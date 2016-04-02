@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Varchas '15</title>
+    <!-- CSS-->
+    <link href="default.css" type="text/css" rel="stylesheet">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet"> 
+	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+<body>
+	<div id = "outer">
+		<div id="menu">
+			<ul class="side_menu">
+				<li class="logo"><a href="../index.html">Varchas '15</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="tennis.html">Introduction</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="active_tab">Rules</li>
+				<!--li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="judging.html">Judging</a></li-->
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="../reg.php" target="_blank">Registration</a></li>
+			</ul>
+		</div>
+		<div id="HL">
+		<div id="header">
+			<a href="tennis.html">Tennis</a>
+		</div>
+		<div id="link_content">
+			<div class="contents">
+				<p>Rules:</p><br>
+<ol>
+<li>Each team should have minimum 2 and maximum 4 players.</li>
+<li>Each match will have two singles and one doubles match. The doubles will be played after the first singles and  last singles match will only be played in case of tie.  (singles-doubles-singles)</li>
+<li>Tournament type will be decided on the basis of number of teams registered.</li>
+<li>The schedule of the tournament will be provided to the teams upon their arrival and is subject to change, so teams are requested to check the notice board regularly.</li>
+<li>Seeding will be done on the basis of  performance in the qualifiers stage and will be done by the organizing committee . </li>
+<li>Teams should report to the tennis court half an hour before their match.</li>
+<li>Any disciplinary violation by any member of the team will lead to disqualification of that team.</li> 
+<li>Teams should bring their own kit .Only match balls will be provided for the matches.</li>
+<li>The chair umpire has final words on all issues related to on court facts.The chair umpire has the duty to "over-rule" any clear mistake by a line umpire.</li>
+<li>All the team members are required to show their ID cards before the beginning of the match failing which the defaulting individual will not be allowed to play.</li>
+</ol>
+			</div>
+			<div id="footer">
+				Piyush Yadav
+			</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

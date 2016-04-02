@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>	VARCHAS 2015 </title>
+	<meta name="description" content="IIT Jodhpur's sports event" >
+        <meta name="author" content="Makarand Gomashe">
+	<meta name="author" content="Ajeet Goyal">
+	
+	<link rel="shortcut icon" href="images/varchas-logo.png">
+<!--Materialize-->
+   <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+	<!-- Bootstrap  -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- icon fonts font Awesome -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Custom Styles -->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!--Color Style -->
+	<link rel="stylesheet" type="text/css" id="color" href="assets/css/colors/default.css"/>
+
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<![endif]-->
+
+	<style type="text/css">
+	html {
+		font-size: 0.9em;
+	}
+	.sponsor {
+		margin-top:10px;
+	}
+	.sponsor img {
+		height: 150px;
+		width: 300px;
+	}
+	.sponsors_container::-webkit-scrollbar {
+		width: 5px;
+		background-color: white;
+		border-radius:5px;
+	}
+	.sponsors_container::-webkit-scrollbar-thumb {
+		width: 5px;
+		background-color: rgba(0,0,0,0.4);
+		border-radius: 5px;
+	}
+	.sponsors_container::-webkit-scrollbar-thumb:hover {
+		width: 5px;
+		background-color: rgba(0,0,0,0.6);
+		cursor: pointer;
+	}
+	.sponsors_container::-webkit-scrollbar-thumb:active {
+		width: 10px;
+		background-color: rgba(0,0,0,0.8);
+	}
+	.sponsors_container::-webkit-scrollbar-track {
+		border-radius: 5px;
+	}
+	</style>
+	
+</head>
+<body>
+
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="loader">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="lading"></div>
+		</div>
+	</div><!-- /#preloader -->
+	<!-- Preloader End-->
+
+	<!-- Main Menu -->
+	<div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+		
+		<div class="navbar-header">
+			<!-- responsive navigation -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="fa fa-bars"></i>
+			</button> <!-- /.navbar-toggle -->
+			
+		</div> <!-- /.navbar-header -->
+
+		<nav class="collapse navbar-collapse">
+			<!-- Main navigation -->
+			<ul id="headernavigation" class="nav navbar-nav">
+				<li class="active"><a href="#page-top">Home</a></li>	
+				<li><a href="#about">About</a></li>	
+				<li><a href="#sponsors">Sponsors</a></li>	
+				<li><a href="#contact">Contact</a></li>		
+			</ul> <!-- /.nav .navbar-nav -->
+		</nav> <!-- /.navbar-collapse  -->
+	</div><!-- /#main-menu -->
+	<!-- Main Menu End -->
+	
+
+	<!-- Page Top Section -->
+	<section id="page-top" class="section-style parallax-bg" data-background-image="images/JD4.jpg">
+ 
+       <div id="header">
+    <div id="header-content">
+        <h1>Varchas 2015</h1>
+        <p>29th Oct'15 - 1st Nov'15</p>
+    </div>
+</div>
+                                <p class="time-until">
+					<span>Register Now!</span>
+				</p><!-- /.time-until -->
+
+		<div class="pattern height-resize">
+			<div class="container">
+				<h1 class="site-title">
+					VARCHAS 2015
+				</h1><!-- /.site-title -->
+			<!--	<h3 class="section-name">
+					<span>
+						#Never_Break_Down
+					</span>
+				</h3--><!-- /.section-name -->
+			<!--	<h4 class="section-title">
+					Countdown has begun
+				</h4--><!-- /.Section-title  -->
+				<div id="time_countdown" class="time-count-container">
+
+					<div class="col-sm-3">
+						<div class="time-box">
+							<div class="time-box-inner dash days_dash animated" data-animation="rollIn" data-animation-delay="300">
+								<span class="time-number">
+									<span class="digit">0</span>
+									<span class="digit">0</span>
+									<span class="digit">0</span>
+								</span>
+								<span class="time-name">Days</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="time-box">
+							<div class="time-box-inner dash hours_dash animated" data-animation="rollIn" data-animation-delay="600">
+								<span class="time-number">
+									<span class="digit">0</span>
+									<span class="digit">0</span>	
+								</span>
+								<span class="time-name">Hours</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="time-box">
+							<div class="time-box-inner dash minutes_dash animated" data-animation="rollIn" data-animation-delay="900">
+								<span class="time-number">
+									<span class="digit">0</span>
+									<span class="digit">0</span>
+								</span>
+								<span class="time-name">Minutes</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="time-box">
+							<div class="time-box-inner dash seconds_dash animated" data-animation="rollIn" data-animation-delay="1200">
+								<span class="time-number">
+									<span class="digit">0</span>
+									<span class="digit">0</span>
+								</span>
+								<span class="time-name">Seconds</span>
+							</div>
+						</div>
+					</div>
+					
+				</div><!-- /.time-count-container -->
+
+<div id="time_countdown" class="time-count-container1">
+<div class="col-4">
+						<div class="time-box1">
+							<div class="time-box-inner dash days_dash animated" data-animation="rollIn" data-animation-delay="300">
+								<span class="time-number1">
+									<p>NEVER</p>
+								</span>
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="col-4">
+						<div class="time-box1">
+							<div class="time-box-inner dash hours_dash animated" data-animation="rollIn" data-animation-delay="600">
+								<span class="time-number1">
+									<p>BREAK</p>
+								</span>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-4">
+						<div class="time-box1">
+							<div class="time-box-inner dash minutes_dash animated" data-animation="rollIn" data-animation-delay="900">
+								<span class="time-number1">
+									<p>DOWN</p>
+								</span>
+								
+							</div>
+						</div>
+					</div>
+</div><!-- /.time-count-container -->
+
+				
+
+
+
+				<div class="next-section">
+					<a class="go-to-about"><span></span></a>
+				</div><!-- /.next-section -->
+				
+			</div><!-- /.container -->
+		</div><!-- /.pattern -->		
+	</section><!-- /#page-top -->
+	<!-- Page Top Section  End -->
+
+
+	<!-- About Us Section -->
+	<section id="about" class="section-style no-parallax-bg" data-background-image="images/TEAM1.jpg">
+		<div class="pattern height-resize"> 
+			<div class="container">
+				<h3 class="section-name">
+					<span>
+						Organising Team
+					</span>
+				</h3><!-- /.section-name -->
+				<h2 class="section-title">
+					Dedicated team!
+				</h2><!-- /.Section-title  -->
+				<p class="section-description">
+					The team that made this happen!
+				</p><!-- /.section-description -->
+
+				<div class="team-container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="team-member">
+								<figure>
+									<img src="images/team/team-member-1.jpg" alt="Team Member">
+									<figcaption>
+										<p class="member-name">John Doe</p>
+										<p class="designation">
+											CEO
+										</p><!-- /.designation -->
+
+									</figcaption>
+								</figure>
+								<div class="social-btn-container">
+									<div class="team-socail-btn">
+										<span class="social-btn-box facebook-btn-container">
+											<a href="#" class="facebook-btn">
+												<i class="fa fa-facebook"></i>
+											</a><!-- /.facebook-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box twitter-btn-container">
+											<a href="#" class="twitter-btn">
+												<i class="fa fa-twitter"></i>
+											</a><!-- /.twitter-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box linkedin-btn-container">
+											<a href="#" class="linkedin-btn">
+												<i class="fa fa-linkedin"></i>
+											</a><!-- /.linkedin-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box github-btn-container">
+											<a href="#" class="github-btn">
+												<i class="fa fa-github-alt"></i>
+											</a><!-- /.github-btn -->
+										</span><!-- /.social-btn-box -->
+									</div><!-- /.team-socail-btn -->
+								</div><!-- /.social-btn-container -->
+							</div><!-- /.team-member -->
+						</div><!-- /.col-sm-4 -->
+
+
+						<div class="col-sm-4">
+							<div class="team-member">
+								<figure>
+									<img src="images/team/team-member-2.jpg" alt="Team Member">
+									<figcaption>
+										<p class="member-name">
+											Claudia Springer
+										</p><!-- /.member-name -->
+										<p class="designation">
+											Designer 
+										</p><!-- /.designation -->
+
+									</figcaption>
+								</figure>
+								<div class="social-btn-container">
+									<div class="team-socail-btn">
+										<span class="social-btn-box facebook-btn-container">
+											<a href="#" class="facebook-btn">
+												<i class="fa fa-facebook"></i>
+											</a><!-- /.facebook-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box twitter-btn-container">
+											<a href="#" class="twitter-btn">
+												<i class="fa fa-twitter"></i>
+											</a><!-- /.twitter-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box linkedin-btn-container">
+											<a href="#" class="linkedin-btn">
+												<i class="fa fa-linkedin"></i>
+											</a><!-- /.linkedin-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box github-btn-container">
+											<a href="#" class="github-btn">
+												<i class="fa fa-github-alt"></i>
+											</a><!-- /.github-btn -->
+										</span><!-- /.social-btn-box -->
+									</div><!-- /.team-socail-btn -->
+								</div><!-- /.social-btn-container -->
+							</div><!-- /.team-member -->
+						</div><!-- /.col-sm-4 -->
+
+
+						<div class="col-sm-4">
+							<div class="team-member">
+								<figure>
+									<img src="images/team/team-member-3.jpg" alt="Team Member">
+									<figcaption>
+										<p class="member-name">
+											Max Anthony
+										</p><!-- /.member-name -->
+										<p class="designation">
+											Developer 
+										</p><!-- /.designation -->
+
+									</figcaption>
+								</figure>
+								<div class="social-btn-container">
+									<div class="team-socail-btn">
+										<span class="social-btn-box facebook-btn-container">
+											<a href="#" class="facebook-btn">
+												<i class="fa fa-facebook"></i>
+											</a><!-- /.facebook-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box twitter-btn-container">
+											<a href="#" class="twitter-btn">
+												<i class="fa fa-twitter"></i>
+											</a><!-- /.twitter-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box linkedin-btn-container">
+											<a href="#" class="linkedin-btn">
+												<i class="fa fa-linkedin"></i>
+											</a><!-- /.linkedin-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box github-btn-container">
+											<a href="#" class="github-btn">
+												<i class="fa fa-github-alt"></i>
+											</a><!-- /.github-btn -->
+										</span><!-- /.social-btn-box -->
+									</div><!-- /.team-socail-btn -->
+								</div><!-- /.social-btn-container -->
+							</div><!-- /.team-member -->
+						</div><!-- /.col-sm-4 -->
+					</div><!-- /.row -->
+					
+				</div><!-- /.team-container -->
+
+
+
+
+
+
+
+<div class="team-container">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="team-member">
+								<figure>
+									<img src="images/team/team-member-1.jpg" alt="Team Member">
+									<figcaption>
+										<p class="member-name">John Doe</p>
+										<p class="designation">
+											CEO
+										</p><!-- /.designation -->
+
+									</figcaption>
+								</figure>
+								<div class="social-btn-container">
+									<div class="team-socail-btn">
+										<span class="social-btn-box facebook-btn-container">
+											<a href="#" class="facebook-btn">
+												<i class="fa fa-facebook"></i>
+											</a><!-- /.facebook-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box twitter-btn-container">
+											<a href="#" class="twitter-btn">
+												<i class="fa fa-twitter"></i>
+											</a><!-- /.twitter-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box linkedin-btn-container">
+											<a href="#" class="linkedin-btn">
+												<i class="fa fa-linkedin"></i>
+											</a><!-- /.linkedin-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box github-btn-container">
+											<a href="#" class="github-btn">
+												<i class="fa fa-github-alt"></i>
+											</a><!-- /.github-btn -->
+										</span><!-- /.social-btn-box -->
+									</div><!-- /.team-socail-btn -->
+								</div><!-- /.social-btn-container -->
+							</div><!-- /.team-member -->
+						</div><!-- /.col-sm-4 -->
+
+
+						<div class="col-sm-4">
+							<div class="team-member">
+								<figure>
+									<img src="images/team/team-member-2.jpg" alt="Team Member">
+									<figcaption>
+										<p class="member-name">
+											Claudia Springer
+										</p><!-- /.member-name -->
+										<p class="designation">
+											Designer 
+										</p><!-- /.designation -->
+
+									</figcaption>
+								</figure>
+								<div class="social-btn-container">
+									<div class="team-socail-btn">
+										<span class="social-btn-box facebook-btn-container">
+											<a href="#" class="facebook-btn">
+												<i class="fa fa-facebook"></i>
+											</a><!-- /.facebook-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box twitter-btn-container">
+											<a href="#" class="twitter-btn">
+												<i class="fa fa-twitter"></i>
+											</a><!-- /.twitter-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box linkedin-btn-container">
+											<a href="#" class="linkedin-btn">
+												<i class="fa fa-linkedin"></i>
+											</a><!-- /.linkedin-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box github-btn-container">
+											<a href="#" class="github-btn">
+												<i class="fa fa-github-alt"></i>
+											</a><!-- /.github-btn -->
+										</span><!-- /.social-btn-box -->
+									</div><!-- /.team-socail-btn -->
+								</div><!-- /.social-btn-container -->
+							</div><!-- /.team-member -->
+						</div><!-- /.col-sm-4 -->
+
+
+						<div class="col-sm-4">
+							<div class="team-member">
+								<figure>
+									<img src="images/team/team-member-3.jpg" alt="Team Member">
+									<figcaption>
+										<p class="member-name">
+											Max Anthony
+										</p><!-- /.member-name -->
+										<p class="designation">
+											Developer 
+										</p><!-- /.designation -->
+
+									</figcaption>
+								</figure>
+								<div class="social-btn-container">
+									<div class="team-socail-btn">
+										<span class="social-btn-box facebook-btn-container">
+											<a href="#" class="facebook-btn">
+												<i class="fa fa-facebook"></i>
+											</a><!-- /.facebook-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box twitter-btn-container">
+											<a href="#" class="twitter-btn">
+												<i class="fa fa-twitter"></i>
+											</a><!-- /.twitter-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box linkedin-btn-container">
+											<a href="#" class="linkedin-btn">
+												<i class="fa fa-linkedin"></i>
+											</a><!-- /.linkedin-btn -->
+										</span><!-- /.social-btn-box -->
+
+										<span class="social-btn-box github-btn-container">
+											<a href="#" class="github-btn">
+												<i class="fa fa-github-alt"></i>
+											</a><!-- /.github-btn -->
+										</span><!-- /.social-btn-box -->
+									</div><!-- /.team-socail-btn -->
+								</div><!-- /.social-btn-container -->
+							</div><!-- /.team-member -->
+						</div><!-- /.col-sm-4 -->
+					</div><!-- /.row -->
+					
+				</div><!-- /.team-container -->
+
+
+
+
+
+
+
+
+
+
+
+				<div class="next-section">
+					<a class="go-to-sponsors"><span></span></a>
+				</div><!-- /.next-section -->
+
+			</div><!-- /.container -->
+		</div><!-- /.pattern -->
+		
+		
+	</section><!-- /#about -->
+	<!-- About Us Section End -->
+
+
+
+	<!-- Sponsors Section -->
+	<section id="sponsors" class="section-style parallax-bg" data-background-image="images/spon.jpg">
+		<div class="pattern height-resize">
+			<div class="container">
+				<h3 class="section-name">
+					<span>
+						Sponsors
+					</span>
+				</h3><!-- /.section-name -->
+				<div class="sponsors_container" style="width:auto; height:500px; overflow-y: scroll; overflow-x:hidden;">
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img src="images/sponsors/canara-bank-logo.jpg" alt="Canara Bank" id="sponsor1"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img src="images/sponsors/bank-of-india-logo.jpg" alt="Bank of India" id="sponsor2"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img src="images/sponsors/ebay-logo.png" alt="Ebay" id="sponsor3"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img src="images/sponsors/pizza-hut-logo.png" alt="Pizza Hut" id="sponsor4"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor5" src="images/sponsors/enquotism-logo.png" alt="Enquotism"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor6" src="images/sponsors/gail-logo.png" alt="Gail"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor7" src="images/sponsors/goyal-hospital-logo.png" alt="Goyal Hospital and Research Center"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor8" src="images/sponsors/rsl-logo.gif" alt="RSL Badmintion"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor9" src="images/sponsors/faadooengineers-logo.png" alt="FadooEngineers.com"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor10" src="images/sponsors/pcj-logo.jpg" alt="PCJ"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor11" src="images/sponsors/tecnifibre-logo.gif" alt="Tecnifibre"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor12" src="images/sponsors/li-ning-logo.jpg" alt="Li-Ning"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor13" src="images/sponsors/punjab-national-bank-logo.jpg" alt="Punjab National Bank"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor14" src="images/sponsors/donic-logo.jpg" alt="Donic"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor15" src="images/sponsors/oil-india-limited-logo.png" alt="Oil India Limited"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor16" src="images/sponsors/state-bank-of-bikaner-and-jaipur-logo.jpg" alt="State Bank of Bikaner and Jaipur"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor17" src="images/sponsors/woodland-logo.jpg" alt="Woodland"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor18" src="images/sponsors/nivia-logo.jpg" alt="Nivia"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor19" src="images/sponsors/my-fm-logo.jpg" alt="94.3 My FM"></a>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor20" src="images/sponsors/honda-logo.jpg" alt="Honda"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="sponsor">
+								<a href="#"><img id="sponsor21" src="images/sponsors/spykar-logo.jpg" alt="Spykar"></a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.container -->
+				<div class="next-section">
+					<a class="go-to-contact"><span></span></a>
+				</div><!-- /.next-section -->
+			</div><!-- /.pattern -->
+		</div>
+	</section>
+	<!-- Sponsors Section End -->
+
+
+
+		<!-- Contact Section -->
+		<section id="contact" class="section-style no-parallax-bg" data-background-image="images/background/contact.jpg">
+			<div class="pattern height-resize">
+				<div class="container">
+					<h3 class="section-name">
+						<span>
+							<h3>Contact Us</h3>
+						</span>
+					</h3><!-- /.section-name -->
+					<h2 class="section-title">
+						Get in touch 
+					</h2><!-- /.Section-title  -->
+					<div class="section-description" style="font-size: 1.2em;">
+						<p>Having Querries?</p>
+						<p>Feel free to email us, or drop us a line on facebook/twitter!</p>
+						<p><strong>pr_varchas@iitj.ac.in</strong></p>
+					</div><!-- /.section-description -->
+					<div class="social-btn-container">
+						<div class="team-socail-btn">
+							<span class="social-btn-box facebook-btn-container">
+								<a href="https://www.facebook.com/Varchas.IITRajasthan?fref=ts" class="facebook-btn">
+									<i class="fa fa-facebook"></i>
+								</a><!-- /.facebook-btn -->
+							</span><!-- /.social-btn-box -->
+							<span class="social-btn-box twitter-btn-container">
+								<a href="#" class="twitter-btn">
+									<i class="fa fa-twitter"></i>
+								</a><!-- /.twitter-btn -->
+							</span><!-- /.social-btn-box -->
+							<span class="social-btn-box youtube-btn-container">
+								<a href="#" class="youtube-btn">
+									<i class="fa fa-youtube"></i>
+								</a><!-- /.youtube-btn -->
+							</span><!-- /.social-btn-box -->
+						</div><!-- /.team-socail-btn -->
+					</div><!-- /.social-btn-container -->
+
+					
+
+					<div class="next-section">
+						<a class="go-to-page-top"><span></span></a>
+					</div><!-- /.next-section -->
+
+				</div><!-- /.container -->
+			</div><!-- /.pattern -->
+
+		</section><!-- /#contact -->
+		<!-- Contact Section End -->
+
+
+
+		<!-- Footer Section -->
+		<!--<footer id="footer-section">
+			<p class="copyright">
+				&copy; <a href="http://demos.jeweltheme.com/kite">Kite</a> 2014 -2015 , All Rights Reserved. Designed by & Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
+			</p>
+		</footer>-->
+		<!-- Footer Section End -->
+
+
+
+    <footer class="page-footer">
+          <!--<div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+
+                <p class="grey-text text-lighten-4">IIT Jodhpur awaits your presence!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+
+                
+                  <h6><a class="grey-text text-lighten-3" href="#!">About us</a></h6>
+                  <h6><a class="grey-text text-lighten-3" href="#!">Contact us</a></h6>
+                
+              </div>
+            </div>
+          </div>-->
+          <div class="footer-copyright" text-align="center">
+            <div class="container">
+            © 2015 Copyright @VARCHAS 2015 @IIT Jodhpur
+            
+            </div>
+          </div>
+        </footer>
+
+
+		<!-- Color Variation Switcher  -->
+		<div id="color-style-switcher">
+			<div>
+				<h3>Color palette</h3>
+				<ul class="colors">
+					<li><a class="color1 active" href="#"></a></li>
+					<li><a class="color2" href="#"></a></li>
+					<li><a class="color3" href="#"></a></li>
+					<li><a class="color4" href="#"></a></li>
+					<li><a class="color5" href="#"></a></li>
+					<li><a class="color6" href="#"></a></li>
+					<li><a class="color7" href="#"></a></li>
+					<li><a class="color8" href="#"></a></li>
+				</ul>
+			</div>	  
+			<div class="bottom">
+				<a href="#" class="settings"><i class="fa fa-cogs icon-2x"></i></a>
+			</div>
+		</div>
+		<!-- Color Variation Switcher End -->
+
+
+		<!-- jQuery Library -->
+		<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+		<!-- Modernizr js -->
+		<script type="text/javascript" src="assets/js/modernizr-2.8.0.min.js"></script>
+		<!-- Plugins -->
+		<script type="text/javascript" src="assets/js/plugins.js"></script>
+		<!-- Custom JavaScript Functions -->
+		<script type="text/javascript" src="assets/js/functions.js"></script>
+		<!-- jquery.parallax.js -->
+		<script type="text/javascript" src="assets/js/jquery.parallax.js"></script>
+		<!-- Custom JavaScript Functions -->
+		<script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+		<!-- Color Style Switcher -->
+		<script type="text/javascript" src="assets/js/switcher.js"></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(window).load(function(){
+					$("#page-top").parallax("50%", 0.2);
+					$("#subscribe").parallax("50%", 0.2);
+				})
+			})
+		</script>
+
+		
+	</body>
+	</html>

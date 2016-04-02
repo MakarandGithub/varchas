@@ -1,0 +1,62 @@
+body  {
+	margin: 0;
+	background-color: rgb(30,30,30);
+	background-repeat: no-repeat;
+}
+
+#page_title {
+	text-align: left;
+	font-family: 'Helvetica','Arial','Georgia','sans-serif';
+	color: white;
+	font-size: 2.5em;
+	padding-left: 1.5%;
+	padding-top:2%;
+	padding-bottom:2%;
+	background-color: rgba(255, 80, 80,0.9);
+}
+
+#footer {
+	font-family: 'Helvetica','Arial','Georgia','sans-serif';
+	padding: 20px;
+	background-color: rgb(229, 89, 89);
+}
+
+#outer {
+	position: absolute;
+	left: 15%;
+	right: 15%;
+}
+
+#form_outer {
+	background-color: rgba(255,255,255,1);
+	padding: 20px;
+}
+
+
+/* TABLET LAYOUT 
+----------------------------------------------- */
+@media only screen and (max-width: 992px) {
+#outer {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+}
+/* MOBILE LAYOUT (PORTRAIT/320PX) 
+----------------------------------------------- */
+@media only screen and (max-width: 750px) {
+#outer {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+}
+/* WIDE MOBILE LAYOUT (LANDSCAPE/480PX) 
+----------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) and (max-height: 600px) {
+#outer {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+}

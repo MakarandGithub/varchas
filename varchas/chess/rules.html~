@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Varchas '15</title>
+    <!-- CSS-->
+    <link href="default.css" type="text/css" rel="stylesheet">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet"> 
+	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+<body>
+	<div id = "outer">
+		<div id="menu">
+			<ul class="side_menu">
+				<li class="logo"><a href="#">Varchas '15</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="chess.html">Introduction</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="active_tab">Rules</li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="judging.html">Judging</a></li>
+				<li><span class="fade_bottom_line"></span></li>
+				<li class="tab"><a href="../registration.php" target="_blank">Registration</a></li>
+			</ul>
+		</div>
+		<div id="HL">
+		<div id="header">
+			<a href="chess.html">Chess</a>
+		</div>
+		<div id="link_content">
+			<div class="contents">
+				<p>Tournament rules and information:</p>
+<ol>
+<li>Limit on number on players: 5 (4 + 1 reserve) 
+</li><li>
+Time Control: 1 hour per side
+</li>
+<li>The board order of players should be given beforehand to the committee. It cannot be changed 
+except as per the substitution rule.
+</li>
+<li>In case of a 2-2 draw between the playing team in critical rounds, three blitz matches will be 
+played between the best players of the teams. Captains of both the teams will report the name of 
+the best player to the organizer confidentially. In case of further draw, a final Armageddon match 
+will be held.
+</li>
+<li>Rule for substitution: "Roll over substitution" - The boards lower to the board on which 
+substitution is made would slide one board till the board of substitution.
+<br>
+Example 1: Assume following board order- A-1, B-2, C-3, D-4, Substitute player E. In case, the player 
+A (on board 1) is to be substituted. New board order should be B-1, C-2, D-3, E-4 (Not playing-A).
+<br>
+Example 2: Assume following board order- A-1, B-2, C-3, D-4.Substitute player E. In case, the player C 
+(on board 3) is to be substituted. New board order should be A-1, B-2, D-3, E-4 (Not playing-C).
+Violation of rules of substitution could lead to '0-4' loss to the violating team for that round.
+</li>
+<li>Contact the organizers to clear your confusion/dispute. If a player has a disagreement, he/she 
+should stop the clock, contact an arbiter and ask for a solution. The chess clock should be stopped 
+before calling organizer.
+</li>
+<li>It is expected that players record the moves. (A sheet would be provided.)It may help to resolve 
+some disputes. At the end of game, a signed copy (by both players) of result sheet should be handed 
+over to organizing committee. The moves should be written using standard chess notation.
+</li>
+<li>No prompting is allowed. Any person found guilty for prompting would be disqualified from the 
+tournament and strict action would be taken against the team to which he/she belongs.
+</li>
+<li>A player or his/her team can be disqualified if his/her conduct in the tournament hall is not found 
+satisfactory.
+</li>
+<li>After the game is over, both the players should leave the table immediately. However, captains of 
+the playing team can stay inside the playing arena even if his/her match is over.
+</li>
+<li>Walkover would be given to the player if his/her opponent does not turn up within 15 minutes 
+after the round has started. Any player absent from the playing room or board for more than 15 
+minutes without permission from the organizers may have his/her game forfeited due to 
+unsportsmanlike conduct.
+</li>
+<li>Please switch off your mobile or keep it in silent mode. Everyone present in the hall is expected 
+to maintain silence. Violating team will be subject to a penalty, and may even have to forfeit their 
+game.</li>
+</ol>
+			</div>
+			<div id="footer">
+				V.Ashwin
+			</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
